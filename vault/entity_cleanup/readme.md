@@ -4,9 +4,7 @@ This is just a quick script that I wrote in bash that loops through all entity e
 
 The purpose of this script is primarily to make entity names predictable in some way. Most of Hashicorp Vault is completely predictable, but the identity system is not completely there.
 
-<aside class="notice">
-This is part of a scratch repo and makes no claims of fitness of purpose, warrantability or any of that other legal mumbo jumbo. I can't even promise it will work consistently. If you choose to use it, that's on you. I might leave master in a broken state on purpose. That's just how I roll.
-</aside>
+IMPORTANT: This is part of a scratch repo and makes no claims of fitness of purpose, warrantability or any of that other legal mumbo jumbo. I can't even promise it will work consistently. If you choose to use it, that's on you. I might leave master in a broken state on purpose. That's just how I roll.
 
 ## Requirements
 
