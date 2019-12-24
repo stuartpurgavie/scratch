@@ -44,3 +44,9 @@ chmod 755 entity_cleanup.sh
 # ...hold onto your butts
 ./entity_cleanup.sh -v -f example.com
 ```
+
+For best results, only use the full run occasionally and for the most part, use the `-q` flag and run every 15 minutes or so. There is also the `-d` option for if you want to add something new and test it out properly. Could use a BATS buddy script but I'm lazy.
+
+## Conclusion
+
+I realize that this isn't a great readme but just wanted to put this script up as an example to reference. I'm sure someone somewhere has done it better. For example, rewriting this in golang would net some serious performance gains. Maybe that should be listed in my TODOs section...
