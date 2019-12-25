@@ -29,6 +29,8 @@ If you're not running a quick run, or running for the first time, this thing can
 
 I've included a sample HCL policy that would be required to run this thing. It's in `entity_cleanup_policy.hcl` for those curious.
 
+Why use `-AT-` instead of just using `@`? The answer is RFC1738, basically the @ symbol is reserved within URL/URIs and if it's part of the entity name, then it becomes part of the API endpoint path. This obviously has portability issues, and while I could bother to encode/escape, I opted to avoid the issue altogether. It's not the worst hack in here, either.
+
 ## Usage
 
 If you're actually crazy enough to run this thing, here's how it would go:
